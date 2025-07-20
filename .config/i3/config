@@ -189,3 +189,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# rofi - selector
+bindsym $mod+m exec "rofi -show run"
